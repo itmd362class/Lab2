@@ -5,6 +5,7 @@ body{
 
 h1{
 	text-align:center;
+	background-color: orange;
 }
 
 form{
@@ -13,4 +14,23 @@ form{
 	text-align:center;
 	
 }
+
+input[type="submit"] {
+  width: 100px; 
+  height: 30px; 
+  font-size: 20px;
+  background-color: darkgrey;
+  color:black;
+  font-weight: bold;
+  
+}
+
+@media screen and (min-width: 600px){
+	form{
+	font-size:13px;
+	text-align:center;
+	display:flex;
+	}
+}
+
 
